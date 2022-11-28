@@ -83,7 +83,7 @@ a {
   background-color: #1F2937;
   display: flex;
   justify-content: space-around;
-  padding: 120px;
+  padding: 80px 120px 50px 120px;
 }
 .head-panel-left {
   width: 50%;
@@ -92,9 +92,10 @@ a {
   align-items: center;
   color: #e5e7eb;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 60%;
   border-radius: 18px;
+  padding-right: 0px;
 }
 
 .head-main-text {
@@ -180,4 +181,5 @@ a {
   border-color: #1F2937;
   width: 80%;
   height: auto;
+  padding-right: 0px;
 }
