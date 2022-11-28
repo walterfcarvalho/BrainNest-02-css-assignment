@@ -89,12 +89,14 @@ a {
   width: 50%;
 }
 
+#image-main {
+  border-color: #1F2937;
+  width: 100%;
+  height: auto;
+}
+
 #head-panel-right {
-  align-items: center;
-  display: flex;
-  justify-content: flex-end;
   border-radius: 18px;
-  padding: 0px;
   margin: 0px;
 }
 
@@ -175,11 +177,4 @@ a {
 }
 .call-action-details {
   font-size: 0.74em;
-}
-
-#image-main {
-  border-color: #1F2937;
-  width: 100%;
-  height: auto;
-  padding-right: 0px;
 }
