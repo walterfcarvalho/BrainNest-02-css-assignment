@@ -88,14 +88,14 @@ a {
 .head-panel-left {
   width: 50%;
 }
-.head-panel-right {
+
+#head-panel-right {
   align-items: center;
-  color: #e5e7eb;
   display: flex;
   justify-content: flex-end;
-  width: 60%;
   border-radius: 18px;
-  padding-right: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .head-main-text {
@@ -179,7 +179,7 @@ a {
 
 #image-main {
   border-color: #1F2937;
-  width: 80%;
+  width: 100%;
   height: auto;
   padding-right: 0px;
 }
